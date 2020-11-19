@@ -95,6 +95,7 @@
 		2082FE36256688ED008C0637 /* Todalendar */ = {
 			isa = PBXGroup;
 			children = (
+				2082FE6525668918008C0637 /* Models */,
 				2082FE37256688ED008C0637 /* TodalendarApp.swift */,
 				2082FE39256688ED008C0637 /* ContentView.swift */,
 				2082FE3B256688F0008C0637 /* Assets.xcassets */,
@@ -128,6 +129,21 @@
 				2082FE56256688F0008C0637 /* Info.plist */,
 			);
 			path = TodalendarUITests;
+			sourceTree = "<group>";
+		};
+		2082FE6525668918008C0637 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2082FE662566892D008C0637 /* CalandarSDKWrapper */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2082FE662566892D008C0637 /* CalandarSDKWrapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CalandarSDKWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
